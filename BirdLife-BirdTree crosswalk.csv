@@ -1,0 +1,5 @@
+PLACEHOLDER — Previously Published Data Source
+This file is a species-name crosswalk linking BirdLife (Species1) and BirdTree (Species3) taxonomies.
+Download the original dataset from:
+[LINK TO BE FILLED IN]
+Place the downloaded file in this directory as "BirdLife-BirdTree crosswalk.csv" before running FuDGE_clean.Rmd.

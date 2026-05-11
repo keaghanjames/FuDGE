@@ -1,0 +1,5 @@
+PLACEHOLDER — Previously Published Data Source
+This file contains IUCN Red List species assessments (scientificName, redlistCategory, and related fields).
+Download the original dataset from:
+[LINK TO BE FILLED IN]
+Place the downloaded file in this directory as assessments.csv before running FuDGE_clean.Rmd.

@@ -1,0 +1,6 @@
+PLACEHOLDER — Previously Published Data Source
+This file contains a single molecular time-calibrated consensus phylogeny for birds (Jetz et al. 2012; BirdTree).
+It is used to calculate Evolutionary Distinctiveness (ED) scores and as the covariance structure in PGLS models.
+Download the original phylogeny from:
+[LINK TO BE FILLED IN]
+Place the downloaded file in this directory as singe_bird_phylo.tre before running FuDGE_clean.Rmd.

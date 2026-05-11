@@ -1,0 +1,6 @@
+PLACEHOLDER — Previously Published Data Source
+This file contains the functional phylogram for birds constructed via UPGMA clustering of morphological trait distances (Skeels & Yaxley 2023).
+It is used to calculate Functional Distinctiveness (FuD) scores via evol.distinct().
+Download the original tree from:
+[LINK TO BE FILLED IN]
+Place the downloaded file in this directory as UPGMA_functional_tree_birds.tree before running FuDGE_clean.Rmd.
