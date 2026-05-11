@@ -1,6 +1,6 @@
 # FuDGE
 
-Code and data for *FuDGE: a Functional Distinctiveness and Global Endangerment score for birds*.
+Code and data for *Evolutionary Distinctiveness and Functional Distinctiveness capture separate facets of avian biodiversity*.
 
 This repository contains the complete analysis pipeline used to compute Functional Distinctiveness (FuD) and the ecoDGE/FuDGE conservation-priority index for birds, compare them against their evolutionary equivalents (ED and EDGE), and test their efficiency in protecting phylogenetic and functional diversity under simulated extinction scenarios.
 
