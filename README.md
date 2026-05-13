@@ -24,10 +24,10 @@ The five files below are derived from previously published datasets. Placeholder
 | File | Description |
 |------|-------------|
 | `UPGMA_functional_tree_birds.tree` | Functional phylogram for birds constructed via UPGMA clustering of morphological trait distances (Skeels & Yaxley 2023). Used to calculate Functional Distinctiveness (FuD) scores via `evol.distinct()`. |
-| `singe_bird_phylo.tre` | A single molecular time-calibrated consensus phylogeny for birds (Jetz et al. 2012; BirdTree). Used to calculate Evolutionary Distinctiveness (ED) and as the covariance structure in PGLS models. |
-| `AVONET1_BirdLife.csv` | AVONET morphological and taxonomic database for birds (Tobias et al. 2022). Columns used: `Species1`, `Family1`, `Order1`. Provides order-level taxonomy for clade analyses. |
-| `BirdLife-BirdTree crosswalk.csv` | Species-name crosswalk linking BirdLife (`Species1`) and BirdTree (`Species3`) taxonomies. Used to reconcile species names between the IUCN assessments and the phylogeny. |
-| `assessments.csv` | IUCN Red List species assessments. Columns used: `scientificName`, `redlistCategory`. Provides threat-status data used to compute the Global Endangerment (GE) score. |
+| `singe_bird_phylo.tre` | Weeks et al.'s (2022) majority rule time-calibrated consensus phylogeny for birds (derived from Jetz et al. 2012; BirdTree). Used to calculate Evolutionary Distinctiveness (ED) and as the covariance structure in PGLS models. https://zenodo.org/records/5139951  |
+| `AVONET1_BirdLife.csv` | AVONET morphological and taxonomic database for birds (Tobias et al. 2022). Columns used: `Species1`, `Family1`, `Order1`. Provides order-level taxonomy for clade analyses https://figshare.com/s/b990722d72a26b5bfead |
+| `BirdLife-BirdTree crosswalk.csv` | Species-name crosswalk linking BirdLife (`Species1`) and BirdTree (`Species3`) taxonomies. Used to reconcile species names between the IUCN assessments and the phylogeny https://figshare.com/s/b990722d72a26b5bfead |
+| `assessments.csv` | IUCN Red List species assessments. Columns used: `scientificName`, `redlistCategory`. Provides threat-status data used to compute the Global Endangerment (GE) score. Search summary for Taxonomy 'Aves". Accessed 8 August 2023 at https://www.iucnredlist.org/search |
 
 ---
 
@@ -71,5 +71,4 @@ install.packages(c(
 
 ## Notes
 
-- The molecular phylogeny file is named `singe_bird_phylo.tre` (a typo for "single") throughout the script; this filename is used as-is to maintain consistency with the analysis code.
 - The functional tree is rescaled to match the total depth of the molecular phylogeny before computing FuD scores, so that ED and FuD are on a directly comparable scale.
