@@ -51,9 +51,6 @@ PGLS models are computationally expensive (hours of run time). Pre-fitted model 
 |------|-------------|
 | `pglsModel.Rdata` | Global PGLS model: `log(FuD) ~ log(ED)`, Brownian-motion correlation structure across the trimmed molecular phylogeny (`phy_trim`), fit by maximum likelihood. |
 | `pglsModel_clade.rds` | PGLS clade model: `log(FuD) ~ log(ED) × Order`, with interaction terms for every bird order (Passeriformes as reference level). Used to test whether the ED–FuD slope varies across clades. |
-| `pglsFuDGE.Rdata` | PGLS model: `scale(FuDGE) ~ scale(EDGE)`. Used to quantify the correlation between the two composite conservation-priority indices while accounting for shared evolutionary history. |
-| `pglsED_End.Rdata` | PGLS model: `GE ~ log(ED)`. Tests whether evolutionary distinctiveness predicts IUCN threat status above and beyond phylogenetic covariance. |
-| `pglsFuD_End.Rdata` | PGLS model: `GE ~ log(FuD)`. Tests whether functional distinctiveness predicts IUCN threat status above and beyond phylogenetic covariance. |
 
 ---
 
